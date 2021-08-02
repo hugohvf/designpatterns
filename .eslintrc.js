@@ -22,5 +22,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-empty-function': 'off',
+    'eslint.autoFixOnSave': true,
+    semi: ['error', 'never'],
   },
 }
